@@ -1,7 +1,7 @@
 This project implements an error recommendation system using a recommendation engine based on user data. It generates error categories for users and provides an API endpoint to fetch the top n errors for a given user.
 
 Steps Involved
-Generating Data: We generate user profiles using a random method in JSON format. These profiles are then stored in a CSV file (user_profiles.csv).
+Generating Data: We create user profiles using a random method in JSON format. These profiles are then stored in a CSV file (user_profiles.csv).
 Recommendation System: The system recommends errors based on a user’s past error data, including error category, sub-category, and frequency.
 API Endpoint: We have created an endpoint using Flask, where users can query their errors by user_id and retrieve the top n errors based on frequency.
 
